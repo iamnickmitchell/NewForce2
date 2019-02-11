@@ -1,0 +1,16 @@
+{
+  "coffeeDrinks": [
+    {
+      "name": "Frappe",
+      "barrista": "Nick",
+      "shopLocation": "Huntington",
+      "id": 1
+    },
+    {
+      "name": "Black Coffee",
+      "barrista": "Nick",
+      "shopLocation": "Huntington",
+      "id": 2
+    }
+  ]
+}
