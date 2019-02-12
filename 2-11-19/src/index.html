@@ -7,9 +7,25 @@
     <title>Document</title>
   </head>
   <body>
-    <input type="text" id="inputBox1"></input>
-    <button id="submit-btn">Submit Button</button>
-    <div id="drinks"></div>
-    <script src="scripts/main.js"></script>
+    <fieldset>
+      <legend>Register your Lego Creation:</legend>
+      <label for="creatorName">Creator:</label>
+      <input id="creatorName" name="creatorName" type="text" autofocus />
+      <label for="creationColor">Color:</label>
+      <input id="creationColor" name="creationColor" type="text" autofocus />
+      <label for="creationShape">Shape:</label>
+      <input id="creationShape" name="creationShape" type="text" autofocus />
+      <label for="creationName">Name:</label>
+      <input id="creationName" name="creationName" type="text" autofocus />
+    </fieldset>
+    <button class="btn lego_save">Save Lego Creation</button>
+    <div id="lego"></div>
+    <div>
+      <input type="text" id="inputBox1" />
+      <button id="submit-btn">Submit Button</button>
+      <div id="drinks"></div>
+      <script src="scripts/main.js"></script>
+      <script src="scripts/lego.js"></script>
+    </div>
   </body>
 </html>

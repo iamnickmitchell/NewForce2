@@ -12,5 +12,14 @@
       "shopLocation": "Huntington",
       "id": 2
     }
+  ],
+  "legoCreation": [
+    {
+      "creator": "Per Sun",
+      "color": "Black",
+      "shape": "Animal",
+      "creation": "Black Cow",
+      "id": 1
+    }
   ]
 }
